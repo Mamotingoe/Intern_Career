@@ -1,0 +1,110 @@
+Cybersecurity Risk Assessment
+Executive Summary
+This report presents the findings of a cybersecurity vulnerability assessment conducted on a sample network/system. The assessment identified several vulnerabilities posing significant risks to the security and integrity of the network/system. Prioritised mitigation strategies are recommended to address these vulnerabilities effectively and enhance overall cybersecurity posture.
+
+
+The purpose of this assessment is to identify potential threats and vulnerabilities within the sample network/system and propose mitigation strategies to mitigate risks effectively.
+
+Sample Network/System:
+
+                Internet
+                      |
+               [Firewall]
+                      |
+                 [Router]
+                 /           \
+[Web Server] [Database Server]
+               \           /
+         [Workstations]
+
+Components:
+
+Web Server: Hosts a company website accessible over the internet.
+Database Server: Stores sensitive customer information.
+Workstations: Used by employees for day-to-day operations.
+Firewall: Controls traffic between the internal network and the internet.
+Router: Connects the internal network to the internet.
+
+
+Potential Threats and Vulnerabilities:
+1. Unauthorised Access:
+ - Threat: Hackers gaining unauthorised access to the network/system.
+ - Vulnerabilities: Weak or default passwords, lack of multi-factor authentication, unpatched software vulnerabilities.
+
+2. Malware Infection:
+ - Threat: Malicious software infecting systems and disrupting operations.
+ - Vulnerabilities: Lack of antivirus/malware protection, downloading files from untrusted sources, outdated software with known vulnerabilities.
+
+3. Data Breach:
+ - Threat: Sensitive customer information being accessed or stolen.
+ - Vulnerabilities: Insufficient data encryption, weak database security measures, inadequate access controls.
+
+4. Denial of Service (DoS) Attack:
+ - Threat: Attackers overwhelming the network/system with excessive traffic, causing disruption.
+ - Vulnerabilities: Lack of DoS protection mechanisms, inadequate bandwidth management, susceptibility to protocol-based attacks.
+
+5. Insider Threats:
+ - Threat: Malicious actions by employees or contractors with access to the network/system.
+ - Vulnerabilities: Insufficient employee training on security best practices, lack of monitoring for unusual behaviour, inadequate access controls.
+
+6. Physical Security Breach:
+ - Threat: Unauthorised individuals gaining physical access to network/server rooms.
+ - Vulnerabilities: Weak physical security measures such as unlocked doors, lack of surveillance cameras, unmonitored access logs.
+
+Vulnerability Scanning:
+
+I utilised Nessus for vulnerability scanning.
+
+Process: Conduct a vulnerability scan on the network/system setup to identify potential weaknesses.
+
+Identified Vulnerabilities:
+
+Outdated Software:
+Severity: High
+Impact: Attackers could exploit known vulnerabilities in outdated software to gain unauthorised access or disrupt operations.
+
+Weak Passwords:
+Severity: Medium
+Impact: Easily guessable or default passwords could be exploited by attackers to compromise user accounts or access sensitive information.
+
+Missing Security Patches:
+Severity: High
+Impact: Unpatched software may contain known vulnerabilities that could be exploited by attackers to execute malicious code or gain unauthorised access.
+
+Risk Analysis:
+
+Assessment of Vulnerabilities:
+
+Outdated Software:
+Likelihood of Exploitation: High
+Potential Impact: Significant, as attackers frequently target known vulnerabilities in outdated software.
+
+Weak Passwords:
+Likelihood of Exploitation: Medium
+Potential Impact: Moderate, as weak passwords pose a risk of unauthorized access but may be mitigated with proper security measures.
+
+Missing Security Patches:
+Likelihood of Exploitation: High
+Potential Impact: Critical, as unpatched vulnerabilities could lead to data breaches, system compromise, or service disruption.
+
+Prioritisation:
+
+High-Risk Vulnerabilities: Outdated software and missing security patches are prioritised due to their high severity and likelihood of exploitation.
+
+Mitigation Strategies:
+Outdated Software:
+Implement a regular patch management process to ensure software updates are applied promptly.
+Enable automatic updates where possible to mitigate the risk of delayed patching.
+Weak Passwords:
+Enforce strong password policies requiring a combination of alphanumeric characters, special symbols, and regular password changes.
+Implement multi-factor authentication to add an extra layer of security.
+Missing Security Patches:
+Establish a dedicated team responsible for monitoring and applying security patches promptly.
+Utilise vulnerability management tools to automate patch deployment and ensure comprehensive coverage.
+
+Recommendations:
+Regularly conduct vulnerability assessments to identify emerging threats.
+Enhance employee training programs to promote cybersecurity awareness.
+Invest in robust cybersecurity tools and technologies to strengthen defenses.
+
+Addressing identified vulnerabilities and implementing recommended mitigation strategies is crucial for safeguarding the sample network/system against cyber threats. Continuous monitoring and proactive measures are essential to maintain a resilient cybersecurity posture.
